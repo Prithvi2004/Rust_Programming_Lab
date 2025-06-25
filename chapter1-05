@@ -1,0 +1,15 @@
+// MADIVADA PRITHVI
+//22PA1A0591
+fn main() {
+    let a = 10;           
+    let b = 3.14;          
+    let c = "hello";       
+
+    println!("Implicit types: a = {}, b = {}, c = {}", a, b, c);
+    let x: i64 = 100;
+    let y: f32 = 6.28;
+    let z: &str = "world";
+
+    println!("Explicit types: x = {}, y = {}, z = {}", x, y, z);
+}
+
