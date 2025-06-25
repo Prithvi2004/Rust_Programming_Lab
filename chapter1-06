@@ -1,0 +1,6 @@
+// MADIVADA PRITHVI
+//22PA1A0591
+fn main() {
+    let arr: [i32; 6] = [0, 2, 4, 6, 8, 10];
+    println!("The array is: {:?}", arr);
+}
