@@ -1,0 +1,6 @@
+// MADIVADA PRITHVI
+//22PA1A0591
+fn main(){
+let _tuples: (&str, u8, f32) = ("Ricky", 21, 3.56);
+println!("{:?}",_tuples);
+}
