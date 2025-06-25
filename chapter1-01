@@ -1,0 +1,5 @@
+// MADIVADA PRITHVI
+//22PA1A0591
+fn main() {
+    println!("Hello");
+}
