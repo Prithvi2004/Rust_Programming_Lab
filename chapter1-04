@@ -1,0 +1,19 @@
+// MADIVADA PRITHVI
+//22PA1A0591
+fn main() {
+    let x = 5;
+    println!("outer scope: {}", x);
+
+    {
+        let x = 10;
+        println!("inner scope: {}", x);
+
+        let x = x + 5;
+        println!("shadowing inside inner scope: {}", x);
+    }
+
+    println!("x in outer scope: {}", x);
+
+    let x = x * 4;
+    println!("x after shadowing in outer scope: {}", x);
+}
